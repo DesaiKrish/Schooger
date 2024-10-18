@@ -1,0 +1,128 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="~/images/blackboard.jpg" class="d-block w-100" alt="blackboard image">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>School Management System</h1>
+            <p>Best school management system in .NET Core MVC</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2015/11/05/08/21/geometry-1023846_1280.jpg" class="d-block w-100" alt="geometry image">
+
+        <div class="container">
+          <div class="carousel-caption">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        
+        <img src="https://cdn.pixabay.com/photo/2015/08/05/13/55/children-876543_1280.jpg" class="d-block w-100" alt="children in school">
+
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Intelligent Students.</h1>
+            <p>From all over the world.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
+        <img src="@Url.Content("~/images/student.png")" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="Placeholder Image" />
+        <h2 class="fw-normal">Student</h2>
+        <p>Managing students now became easy!</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+            <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
+        <img src="@Url.Content("~/images/stdmat.jpeg")" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="Placeholder Image" />
+        <h2 class="fw-normal">Course Enrollment</h2>
+        <p>Teach based on students enrolled</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+            <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
+            <img src="@Url.Content("~/images/teacher.png")" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="Placeholder Image" />
+        <h2 class="fw-normal">Teacher</h2>
+            <p>Manage faculties conveniently</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Introducing Schooger!</h2>
+        <p class="lead">One of the best school/college management portal built in .NET MVC Core.</p>
+      </div>
+      <div class="col-md-5">
+            <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="https://softwaresuggest-cdn.s3-ap-southeast-1.amazonaws.com/pageimages/Student-Management-System-Guide-min.png" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+            -->
+            <img src="https://softwaresuggest-cdn.s3-ap-southeast-1.amazonaws.com/pageimages/Student-Management-System-Guide-min.png"
+                 class="featurette-image img-fluid mx-auto"
+                 alt="Student Management System Guide"
+                 width="500"
+                 height="500" />
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">One stop solution for admin authorities is now in market!</h2>
+        <p class="lead">High in demand tool which efficiently manages students, professors and scales as database grows.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        -->
+            <img src="https://document360.com/wp-content/uploads/2022/12/Knowledge_Management_Portal_-Guide_with_Examples-scaled.jpg"
+             class="featurette-image img-fluid mx-auto"
+             alt="Student Management System Software"
+             width="500"
+             height="500" />
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
